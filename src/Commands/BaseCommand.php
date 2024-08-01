@@ -17,7 +17,7 @@ use function Laravel\Prompts\multiselect;
 abstract class BaseCommand extends Command implements PromptsForMissingInput
 {
     use ConfirmableTrait;
-    use Prohibitable;
+    // use Prohibitable;
 
     public const ALL = 'All';
 
